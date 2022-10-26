@@ -7,8 +7,18 @@
     android:background="@color/white2"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".presentation.fragments.First.HomeFragment">
-
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="0sp"
+    android:text="@string/note"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    />
     <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="20dp"
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         tools:listitem="@layout/item"
