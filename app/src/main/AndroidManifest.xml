@@ -4,7 +4,7 @@
     package="com.geektech.noteapp">
 
     <application
-        android:name="com.example.noteapp.App"
+        android:name=".presentation.utils.App"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -15,7 +15,7 @@
         android:theme="@style/Theme.NoteAPP"
         tools:targetApi="31">
         <activity
-            android:name="com.example.noteapp.presentation.MainActivity"
+            android:name=".presentation.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
