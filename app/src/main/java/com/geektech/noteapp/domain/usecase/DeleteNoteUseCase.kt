@@ -7,6 +7,6 @@ import javax.inject.Inject
 class DeleteNoteUseCase @Inject constructor(
     private val noteRepository: NoteRepository
 ) {
-    fun deleteNote(note: Note)=noteRepository.deleteNote(note)
+      fun deleteNote(note: Note)=noteRepository.deleteNote(note)
 
 }

@@ -1,4 +1,4 @@
-package com.geektech.noteapp.domain.utils
+package com.example.noteapp.domain.utils
 
 sealed class Resource<T>(
     val data: T? = null,

@@ -1,8 +1,9 @@
 package com.example.noteapp.domain.repository
 
 import com.example.noteapp.domain.model.Note
-import com.geektech.noteapp.domain.utils.Resource
+import com.example.noteapp.domain.utils.Resource
 import kotlinx.coroutines.flow.Flow
+
 
 interface NoteRepository {
     fun createNote(note: Note):Flow<Resource<Unit>>
